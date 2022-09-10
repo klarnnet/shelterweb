@@ -1,0 +1,699 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Arial';
+    max-width: 1280;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 110%;
+    min-width: auto;
+}
+#logo h1{
+color: #F1CDB3;
+font-family: Georgia;
+font-weight: 400;
+letter-spacing: 0.06em;
+}
+#logo p{
+    margin-top: 1vh;
+    color:#FFF;  
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+header a{
+    color: #CDCDCD;
+}
+.menu{
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 3vh;
+    font-weight: 400;
+}
+ul,li{
+    display: block;
+}
+.menu li a {
+    text-decoration:none ;
+    font-size: 15px;
+    margin-right: 3vh;
+}
+.menu-about{
+    color: #FAFAFA;
+    border-bottom: 0.5vh solid #F1CDB3; 
+    padding-bottom: 0.65vh;
+}
+.container .nav{
+    display: flex;
+    padding-top: 4vh; 
+    justify-content: space-between;
+    position:absolute;
+    width: 1200px;
+    height: 60px;
+
+}
+
+.start{
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) no-repeat center top / cover ;
+}
+
+.not-only .container{
+    display: grid;
+    grid-template-columns: 53.7vh 56.6vh;;
+     grid-template-rows: 112vh; 
+    gap: 6.4vh;
+    padding-top: 180px;
+    /* margin-top: 96px; */
+    /* justify-content: center; */
+
+}
+/* .not-only {
+	overflow: hidden;
+    position: relative;
+    height: 120vh;
+}*/
+.left-not-only {
+	float: left;
+	
+    margin-top: 25vh;
+} 
+.left-not-only h1{
+    font-family: Georgia;
+    color:#FFF;
+    font-size: 5vh;
+    width: 35vh;
+    height: 13vh;
+    font-weight: 400;
+    line-height: 130%;
+}
+.left-not-only p{
+    font-family: Arial, sans-serif;
+    color:#CDCDCD;
+    font-size: 2vh;
+    width: 51vh;
+    height: 8vh;
+    margin-top: 5vh;
+}
+.make-friends{
+    border: 0;
+    font-family: Georgia;
+    font-size: 2vh;
+    background-color: #F1CDB3;
+    color:#292929;
+    border-radius: 11vh;
+    width: 23vh;
+    height: 6vh;
+    margin-top: 5vh;
+    transition: transform 0.7s ease;
+}
+.make-friends:hover{
+    transform: scale(1.05);
+}
+.right-not-only img{
+    padding-top: 32vh;
+    object-fit: cover;
+  display: block;
+  max-width: 100%; 
+   
+}
+
+.about{
+    overflow: hidden;
+    padding-bottom: 9vh; 
+      
+}
+.about .container{
+    display: grid;
+    grid-template-columns: 300px 440px;
+    grid-auto-rows: 408px;
+    gap: 120px;
+    margin-top: 100px;
+    justify-content: center;
+    padding-bottom: 6vh;
+
+}
+.left-about{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
+.right-about h1{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing: 0.06em;
+    line-height: 130%;
+}
+.right-about p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    padding-top: 3vh;
+}
+
+
+
+
+
+
+.button-pets{
+    /* padding-left: 13vh;
+    margin-bottom: 4vh;
+    display: inline-block;
+    position: relative; */
+    text-align: center;
+}
+#button-pets{
+    border: 0.33vh solid #F1CDB3;
+    transition: box-shadow 0.7s ease;
+    transition: transform 0.7s ease;
+   
+
+}
+#button-pets:hover{
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    background-color:#F1CDB3;
+
+}
+.our-friends{
+    background:#F6F6F6;
+}
+.grid-our {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 8vh 1fr 1fr 1fr 8vh;
+    grid-auto-rows: 23vh 82vh 22vh;
+    gap: 0 10.5vh;
+    padding-bottom: 6vh;
+}
+.our-friends h1{
+    margin-top: 4vh;
+    font-family: 'Georgia';
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+}
+.grid-our .string{
+    padding-top: 4vh;
+
+}
+.grid-our p{
+    font-family: 'Georgia';
+}
+.our-friends-text {
+    padding-top: 10vh;
+    text-align: center;
+    justify-self:center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+.button-our-pets{
+    justify-self:center;
+    margin-top: 6vh;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.pets{
+    font-family: 'Georgia';
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    display: inline-block; 
+    background-color: #FAFAFA; 
+    transition: box-shadow 0.7s ease;
+    transition: transform 0.7s ease;
+
+}
+.pets:hover{
+    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+
+}
+.pets .string {
+    padding-top: 30px;
+    text-align: center; 
+    font-weight: 400;
+    font-family: 'Georgia';
+    font-size: 20px;
+}
+.pets button{
+    font-family: Georgia;
+    font-size: 2vh;
+    border-color: #F1CDB3;
+    background-color: #FAFAFA;
+    color:#292929;
+    border-radius: 11vh;
+    margin-top: 5vh;
+    width: 21vh;
+    height: 6vh;
+}
+.get-to{
+    font-family: Georgia;
+    font-size: 2vh;
+    background-color: #F1CDB3;
+    color:#292929;
+    border-radius: 11vh;
+    width: 29vh;
+    border: 0;
+    height: 6vh;
+    margin: 3vh ;
+    transition: transform 0.7s ease;
+}
+.get-to:hover{
+    transform: scale(1.05);
+}
+.pets{
+    margin-top: 14vh;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    display: inline-block; 
+}
+.pets .string {
+    padding-top: 30px;
+    text-align: center; 
+    font-weight: 400;
+    font-family: 'Georgia';
+    font-size: 20px;
+}
+#butt {
+    align-self: center;
+    transition: transform 0.7s ease;
+}
+#butt:hover{
+    transform: scale(1.05);
+}
+
+.help{
+    background:#FFF;
+}
+.grid-help {
+    display: grid;
+    grid-template-columns: 113px;
+    grid-template-areas: 
+    "help-text help-text help-text help-text help-text"
+    "food transportation toys bowls shampoos"
+    "vitamins medicines collars sleeping ...";
+    grid-auto-rows: 90px 60px 60px;
+    margin-top: 9vh;
+    gap: 97px 40px;
+    justify-content: center;
+    margin-bottom: 9vh;
+}
+.grid-help .string{
+    padding-top: 4vh;
+
+}
+.grid-help p{
+    font-family: 'Georgia';
+}
+.grid-help img{
+    padding-left: 5vh;
+}
+.help-text {
+    text-align: center;
+    justify-self:center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+.grid-help p{
+    justify-self:center;
+}
+.help .container{
+    font-family: 'Georgia';
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+
+
+
+  
+.in-addition{
+    background:#F6F6F6;
+}
+.in-addition .container{
+    display: grid;
+    grid-template-columns: 505px 380px;
+    grid-auto-rows: 282px;
+    gap: 30px;
+    margin-top: 80px;
+    justify-content: center;
+
+}
+.in-addition-left{
+   
+    margin-top: 41px;
+
+}
+.in-addition-right{
+    color: #545454;
+    width: 380px;
+    height: 282px;
+}
+.in-addition-right p{
+color:#1A1A1C
+}
+.in-addition a{
+    text-decoration: none;
+}
+
+.mainr{
+    font-family: 'Georgia';
+    text-align: left;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    color: #545454;
+    letter-spacing: 0.06em;
+    padding-top: 2.2vh;
+}
+.bank{
+    font-family: 'Georgia';
+    padding-top: 2.2vh;
+}
+.kard{
+    font-family: 'Georgia';
+    margin-top: 2.2vh;
+    width: 255px;
+    padding: 1.2vh 1.6vh 1.2vh 1.6vh;
+    border: 2px solid #F1CDB3;
+    background: #F1CDB3;
+    border-radius: 1vh;
+    transition: transform 0.7s ease;
+}
+.kard:hover{
+    transform: scale(1.05);
+}
+.kard img {
+    vertical-align: middle;
+}
+
+.textr{
+    font-style: italic;
+    color: #B2B2B2;
+    padding-top: 2.2vh;
+}
+.in-addition .container{
+    padding: 8vh 0 17vh 0 ;
+}
+
+.footer-friends-grid{
+    display: grid;
+    grid-template-columns: 27vh 42vh 45vh;
+    grid-template-rows: 50vh;
+gap: 0 2vh;
+ 
+}
+
+.footer{
+    background:radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%);
+}
+#two{
+    margin-top: 6.2px;
+}
+#one{
+    margin-top: 6.2px;
+}
+.em img {
+    vertical-align: middle;
+}
+.em{
+    font-family: Georgia; 
+    color: #F1CDB3;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+}  
+.footer-one .textf1{
+    margin-top:6.2vh ;
+    color: #fff;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+} 
+.footer-one #a{
+    margin-top: 4.4vh;
+}
+.footer-one #c{
+    margin-top: 3.7vh;
+}
+.footer-one #d{
+    margin-top: 3.5vh;
+}
+#three{
+    align-items: flex-end;
+    padding-top: 3vh;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+}
+
+.footer a{
+    text-decoration: none;
+}
+.help-text{
+    grid-area: help-text;
+            }
+.food{
+grid-area: food;
+} 
+.transportation{
+    grid-area: transportation;
+} 
+.toys{
+    grid-area: toys;
+}
+.bowls{
+    grid-area: bowls;
+} 
+.shampoos{
+    grid-area: shampoos;
+} 
+.vitamins{
+    grid-area: vitamins;
+} 
+.medicines{
+    grid-area: medicines;
+} 
+.collars{
+    grid-area: collars;
+ } 
+.sleeping{
+    grid-area: sleeping;
+}
+/* #one{
+    grid-area: one;
+}
+#two{
+    grid-area: two;
+}
+#three{
+    grid-area: three;
+} */
+
+.left-not-only{
+    margin-top: 0;
+}
+@media (max-width: 1280px) and (min-width:768px ){
+    
+    .container{
+        max-width: 768px;
+        margin: auto;
+        width: 100%;
+        min-width: auto;
+    }
+    .container .nav{
+        width: 708px;
+        height: 60px;
+    }
+    .not-only .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-not-only{
+        margin-top: 0;
+    }
+    .right-not-only img{
+        margin-top: 5vh;
+        margin-left: 18vh;
+    }
+    .make-friends{
+        margin-left: 16vh;
+    }
+    .grid-our{
+        
+        justify-content: center;
+        grid-template-columns: 1vh  8fr 8fr 1vh;
+    grid-auto-rows: 23vh 82vh 22vh;
+    gap: 0 4.5vh;
+    padding-left: 7vh;
+    padding-bottom: 6vh;
+    align-items: center;
+    }
+    .right-not-only img {
+        padding-top: 32vh;
+        object-fit: cover;
+        display: block;
+        max-width: 62%;} 
+    .button-pets {
+        padding-left: 7vh;
+        margin-bottom: 4vh;
+    }
+    #pets3{
+        display: none;
+    }
+    .grid-help{
+        grid-template-areas: 
+            "help-text help-text help-text"
+            "food transportation toys"
+            "bowls shampoos vitamins"
+            "medicines collars sleeping";
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 90px 170px 170px 170px;
+    
+    }
+    .grid-help > div{
+        justify-content: center;
+    }
+       
+    .nav{
+        display: flex;
+        padding-top: 4vh; 
+    }
+    
+    .about .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-about {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        width: 430px;
+        height: 380px;
+    }
+    .left-about{
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    .in-addition .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #three{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-column-end: 3;
+        grid-row-end: 3;
+        justify-self:center;
+    }
+}
+
+@media (max-width: 768px) and (min-width:320px){
+    .not-only .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-not-only{
+        margin-top: 0;
+    }
+    .right-not-only img{
+        margin-top: 5vh;
+        margin-left: 18vh;
+    }
+
+
+    .grid-help{
+        grid-template-areas: 
+        "help-text help-text"
+        "food transportation"
+        "toys bowls"
+         "shampoos vitamins"
+        "medicines collars" 
+        "sleeping ...";
+    
+    grid-template-columns: 1fr 1fr;
+
+}
+.grid-our{
+    display: grid;
+   
+grid-template-columns: 7vh  38vh 7vh 0;
+grid-auto-rows: 90px 435px 52px;
+gap: 0 104px;
+justify-items: center;
+align-items: center;
+}
+.menu{
+    display: none;
+    position: 0;
+}
+#pets2{
+    display: none;
+}
+#pets3{
+    display: none;
+}
+.right-not-only img {
+    margin-top: 0;
+     margin-left: 52vh;
+}
+.right-not-only img {
+    padding-top: 0; 
+    object-fit: cover;
+    display: block;
+    max-width: 33%;}
+.about .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 890px;
+}
+.in-addition .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.footer-friends-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+ 
+
+}
+
+}
